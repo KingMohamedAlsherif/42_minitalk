@@ -28,13 +28,12 @@ make
 
 ## Usage
 
-## Running the Server
+### Running the Server
 First, you need to start the server. The server will print its process ID (PID), which you will use to send messages from the client.
 ```bash
 ./server
 ```
-
-## Running the Client
+### Running the Client
 After starting the server, you can send messages to it using the client. You need to provide the server's PID and the message you want to send.
 ```bash
 ./client [server-pid] "Your message here"
